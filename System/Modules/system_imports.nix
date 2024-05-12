@@ -14,6 +14,9 @@
     ./sound/sound.nix
     ./user/user.nix
     ./steam/steam.nix
-    ./sddm/sddm.nix
+    ./git/git.nix
+    ./sops-nix/sops.nix
+    ./plasma/plasma.nix
+    ./gnome-keyring/gnome-keyring.nix  
   ];
 }

@@ -7,7 +7,6 @@
     description = "Vhal Ragnarok";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      firefox
       vscode
     ];
   };

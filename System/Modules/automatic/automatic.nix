@@ -8,5 +8,9 @@
     options = "--delete-older-than 14d";
   };
 
- #TODO: Automatic Updates 
+ #TODO: Uncomment on final system & troubleshoot if needed.
+ #environment.systemPackages = [
+     #(import ./updater.nix {inherit pkgs;})
+ #];
+ 
 }

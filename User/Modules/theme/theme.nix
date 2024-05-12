@@ -39,16 +39,14 @@
   "gtk-4.0/gtk-dark.css".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk-dark.css";
 };
 
-  #testing
   home.packages = with pkgs; [
-    xfce.thunar
     adwaita-qt
   ];
 
 
   #QT
   qt.enable = true;
-  #qt.platformTheme.name = "gtk";
+  qt.platformTheme.name = "gtk";
   qt.style.name = "adwaita-dark";
   qt.style.package = pkgs.adwaita-qt;
   #I hate GTK, I hate GNOME...
