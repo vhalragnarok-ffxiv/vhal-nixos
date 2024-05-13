@@ -1,20 +1,9 @@
 { config, pkgs, ... }:
 {
   imports = [];
-
-  #GTK (Catppuccin Frappe Blue accent Compact size black rimless tweaks )
-  #gtk = {
-    #enable = true;
-    #theme = {
-      #name = "Catppuccin-Frappe-Compact-Blue-Dark";
-      #package = pkgs.catppuccin-gtk.override {
-        #accents = ["blue"];
-        #size = "compact";
-        #tweaks = ["rimless" "black"];
-        #varaint = "frappe";
-      #};
-    #};
-  #};
+  home.packages = with pkgs; [
+  dconf
+  ];  
   gtk = {
     enable = true;
     theme = {
@@ -39,16 +28,6 @@
   "gtk-4.0/gtk-dark.css".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk-dark.css";
 };
 
-  home.packages = with pkgs; [
-    adwaita-qt
-  ];
-
-
-  #QT
-  qt.enable = true;
-  qt.platformTheme.name = "gtk";
-  qt.style.name = "adwaita-dark";
-  qt.style.package = pkgs.adwaita-qt;
   #I hate GTK, I hate GNOME...
   home.file."${config.gtk.gtk2.configLocation}".force = true;
 }

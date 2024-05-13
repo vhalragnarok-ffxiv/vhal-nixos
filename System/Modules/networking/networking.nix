@@ -10,4 +10,9 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
+  environment.systemPackages = with pkgs; [
+    networkmanagerapplet
+  ]; 
+  programs.nm-applet.enable = true;
+
 }

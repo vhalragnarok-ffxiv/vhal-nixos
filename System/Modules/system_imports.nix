@@ -16,7 +16,11 @@
     ./steam/steam.nix
     ./git/git.nix
     ./sops-nix/sops.nix
-    ./plasma/plasma.nix
-    ./gnome-keyring/gnome-keyring.nix  
+    ./gnome-keyring/gnome-keyring.nix
+     #I shouldn't need to fuck with SDDM but JIC. I should be able to handle X11 shit in X11 shit.
+    ./sddm/sddm.nix
+     #DE / WM Selection. Comment out what you don't want.    
+     #./plasma/plasma.nix
+    ./swayfx/swayfx.nix
   ];
 }

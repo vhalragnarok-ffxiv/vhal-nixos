@@ -3,7 +3,7 @@
   imports = [
     ./starship/starship.nix
     ./vesktop/vesktop.nix
-    ./theme/theme.nix
+    ./theme/theme.nix #Universal GTK & Cursor Theme. QT to be manually included in !KDE
     ./input-remapper/input-remapper.nix
     ./spotify/spotify.nix
     ./bitwarden/bitwarden.nix
@@ -12,9 +12,12 @@
     ./sops-nix-home/sops-home.nix
     ./kitty/kitty.nix
     ./nvim/nvim.nix
-    ./plasma-home/plasma-home.nix
     ./thunar/thunar.nix
     ./firefox/firefox.nix
     ./xivlauncher/xivlauncher.nix
+    #Home-Managed Modules of Goodness... Disable what you don't need.
+    ./plasma-home/plasma-home.nix
+    #testing
+    ./swayfx-home/swayfx-home.nix
   ];
 }
