@@ -1,7 +1,0 @@
-keys:
-  - &vhal age1d6f4527km2xmtlwu5dykq9ggefs5g7mt3mfena0gt758nl0vxgdqklwmhr
-creation_rules:
-  - path_regex: secrets/secrets.yaml$
-    key_groups:
-    - age:
-      - *vhal
