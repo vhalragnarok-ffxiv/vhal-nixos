@@ -3,7 +3,7 @@
 pkgs.writeShellScriptBin "ffxiv-backup" ''
 cd ~/.xlcore &&
 cp -r ffxivConfig ~/vhal-nixos/User/.xlcore/ &&
-cp -r inistalledPlugins ~/vhal-nixos/User/.xlcore/ &&
+cp -r installedPlugins ~/vhal-nixos/User/.xlcore/ &&
 cp -r Mods ~/vhal-nixos/User/.xlcore/ &&
 cp -r pluginConfigs ~/vhal-nixos/User/.xlcore/ &&
 cp -r dalamudConfig.json ~/vhal-nixos/User/.xlcore/ &&
