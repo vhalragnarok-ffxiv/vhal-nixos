@@ -9,6 +9,6 @@ cp -r pluginConfigs ~/vhal-nixos/User/.xlcore/ &&
 cp -r dalamudConfig.json ~/vhal-nixos/User/.xlcore/ &&
 cd ~/vhal-nixos &&
 git add . &&
-git commit -m "User initiated .xlcore backup" &&
+git commit -am "User initiated .xlcore backup" &&
 echo "Files backed up and a Git Commit has been staged!"
 ''
