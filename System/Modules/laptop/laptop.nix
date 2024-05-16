@@ -9,10 +9,14 @@
 
 config = lib.mkIf config.laptop.enable {
 #Laptop Specific
-hardware.system76.enableAll = true;
-hardware.bluetooth.enable = true; 
-hardware.bluetooth.powerOnBoot = true;
-services.blueman.enable = true;
+  hardware.system76.enableAll = true;
+  hardware.bluetooth.enable = true; 
+  hardware.bluetooth.powerOnBoot = true;
+  services.blueman.enable = true;
+  environment.systemPackages = with pkgs; [
+    brightnessctl
+  ];
+
 };
-  
+
 }

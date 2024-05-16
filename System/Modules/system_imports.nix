@@ -15,7 +15,6 @@
     ./user/user.nix
     ./steam/steam.nix
     ./git/git.nix
-    ./sops-nix/sops.nix
     ./gnome-keyring/gnome-keyring.nix
      #I shouldn't need to fuck with SDDM but JIC. I should be able to handle X11 shit in X11 shit.
     ./sddm/sddm.nix

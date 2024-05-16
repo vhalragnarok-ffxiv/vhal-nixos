@@ -9,8 +9,12 @@
   ../waybar/swayfx/waybar-swayfx.nix
   ../wlogout/swayfx/wlogout-swayfx.nix
   ../wayland-compat/wayland-compat.nix
+  ../grim-slurp/grim-slurp.nix
   ];
     xdg.configFile = {
     "sway/config".source = ./config;
     };
+    
+    home.file."Pictures/cat-waves.png".source = ./cat-waves.png;
+    #services.dunst.enable = true;
 }

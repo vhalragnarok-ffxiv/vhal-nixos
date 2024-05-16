@@ -3,6 +3,6 @@
   imports = [];
 
   environment.systemPackages = with pkgs; [
-    polkit_gnome
+   lxqt.lxqt-policykit
   ];
 }

@@ -6,9 +6,6 @@
     isNormalUser = true;
     description = "Vhal Ragnarok";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      vscode
-    ];
   };
 
  #Importing & Setting up Home-Manager as a Module.

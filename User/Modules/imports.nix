@@ -9,14 +9,13 @@
     ./bitwarden/bitwarden.nix
     ./path-of-building/path-of-building.nix #Disable this if you don't play PoE.... Can't make this an option sanely.
     ./zoxide/zoxide.nix
-    ./sops-nix-home/sops-home.nix
     ./kitty/kitty.nix
     ./nvim/nvim.nix
     ./thunar/thunar.nix
     ./firefox/firefox.nix
     ./xivlauncher/xivlauncher.nix
     #Home-Managed Modules of Goodness... Disable what you don't need.
-    ./plasma-home/plasma-home.nix
+    #./plasma-home/plasma-home.nix
     #testing
     ./swayfx-home/swayfx-home.nix
   ];

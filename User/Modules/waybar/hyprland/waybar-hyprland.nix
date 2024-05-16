@@ -153,6 +153,7 @@
                 "  "
                 "   "
             ];
+          };
           "ignored-sinks" = [
             "Easy Effects Sink"
             "Easy Effects"
@@ -160,7 +161,7 @@
           ];
           "on-click" = "pavucontrol";
          };
-        };
+        
     }];
   };
  }

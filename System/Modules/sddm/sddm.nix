@@ -2,6 +2,9 @@
 {
   services.displayManager.sddm.enable = true;
   services.displayManager.sddm.wayland.enable = true;
-  services.displayManager.sddm.theme = "breeze";
+  environment.systemPackages = with pkgs; [
+    libsForQt5.qt5.qtgraphicaleffects
+  ];
+  services.displayManager.sddm.theme = "${import ./tokyo-night-sddm.nix {inherit pkgs; }}";
   
 }
