@@ -5,6 +5,4 @@
     git
     gh
   ];
-  programs.git.userName = "vhal";
-  programs.git.userEmail = "bilbobaggins30@protonmail.com";
 }
