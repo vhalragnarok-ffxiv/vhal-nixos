@@ -9,6 +9,7 @@
     autotiling
     dconf
     swaynotificationcenter
+    pamixer
   ];
   sound.mediaKeys.enable = true;
   #boot.initrd.systemd.dbus.enable = true;
