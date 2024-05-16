@@ -2,15 +2,15 @@ This is for my personal use!
 I provide no warranty nor no guarantee that this project works.
 Please do not create issues or PRs against this project. 
 
-#File Structure
-#Root Directory:
+#File Structure <br>
+#Root Directory: <br>
 - flake.lock : Versioning Data.
 - flake.nix : Basically defines where we get stuff from.
 - hardware-configuration.nix : You'll need your own.
 
-#System
+#System <br>
 -configuration.nix : System Options. 
-#System/Modules
+#System/Modules <br>
 - Automatic : Automates Garbage Collection.
 - Bash : Aliases (switch, update, cd, vim, nvim).
 - Bootloader: Systemd. No need to touchy. 
@@ -31,10 +31,10 @@ Please do not create issues or PRs against this project.
 - steam: ....
 - swayfx: In-Use by default.
 - system_imports.nix: Where you can manually toggle stuff on and off.
-#User
+#User <br>
 We use Home-Manager as a Module... Or whatever method allows you to have multiple users and requires ```sudo``` invocation. 
 - home.nix: Barebones.
-#User/Modules
+#User/Modules <br>
 - bitwarden: ....
 - copyq: Needed for Wayland Window Managers.
 - dunst: Needed for X11 Tilers.
@@ -61,12 +61,12 @@ We use Home-Manager as a Module... Or whatever method allows you to have multipl
 - zoxide: cd but better. 
 - imports.nix: Where you can adjust what to include. 
 
-#Keybinds
+#Keybinds <br>
 
-I want you to go to QTile and look at thier keybinds. Study them. Chances are pretty high that I use all of them.
-But JIC you did not do what I asked here they are:
+I want you to go to QTile and look at thier keybinds. Study them. Chances are pretty high that I use all of them. <br>
+But JIC you did not do what I asked here they are: <br>
 
-Meta: Mod4 aka Super aka That other OS Button.
+Meta: Mod4 aka Super aka That other OS Button. <br>
 
 - Meta + W: Close a window
 - Meta + Enter: Open Kitty
