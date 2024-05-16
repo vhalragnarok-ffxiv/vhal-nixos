@@ -8,9 +8,8 @@
     options = "--delete-older-than 14d";
   };
 
- #TODO: Uncomment on final system & troubleshoot if needed.
- #environment.systemPackages = [
-     #(import ./updater.nix {inherit pkgs;})
- #];
+environment.systemPackages = [
+     (import ./updater.nix {inherit pkgs;})
+ ];
  
 }
