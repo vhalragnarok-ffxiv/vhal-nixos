@@ -10,7 +10,7 @@
     dconf
     swaynotificationcenter
   ];
-
+  sound.mediaKeys.enable = true;
   #boot.initrd.systemd.dbus.enable = true;
   programs.sway = {
     enable = true;
