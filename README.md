@@ -1,16 +1,16 @@
 This is for my personal use!
-I provide no warrant nor no guarantee that this project works.
-Please do not create issues or PRs agains thtis project. 
+I provide no warranty nor no guarantee that this project works.
+Please do not create issues or PRs against this project. 
 
 #File Structure
-##Root Directory:
+#Root Directory:
 - flake.lock : Versioning Data.
 - flake.nix : Basically defines where we get stuff from.
 - hardware-configuration.nix : You'll need your own.
 
 #System
 -configuration.nix : System Options. 
-##System/Modules
+#System/Modules
 - Automatic : Automates Garbage Collection.
 - Bash : Aliases (switch, update, cd, vim, nvim).
 - Bootloader: Systemd. No need to touchy. 
@@ -31,10 +31,10 @@ Please do not create issues or PRs agains thtis project.
 - steam: ....
 - swayfx: In-Use by default.
 - system_imports.nix: Where you can manually toggle stuff on and off.
-##User
+#User
 We use Home-Manager as a Module... Or whatever method allows you to have multiple users and requires ```sudo``` invocation. 
 - home.nix: Barebones.
-##User/Modules
+#User/Modules
 - bitwarden: ....
 - copyq: Needed for Wayland Window Managers.
 - dunst: Needed for X11 Tilers.
