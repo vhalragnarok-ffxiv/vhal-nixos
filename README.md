@@ -2,15 +2,16 @@ This is for my personal use! <br>
 I provide no warranty nor no guarantee that this project works. <br>
 Please do not create issues or PRs against this project, as this is my personal setup. <br>
 You are free to use this code as you wish. <br>
-
+<br>
 #File Structure <br>
 #Root Directory: <br>
 - flake.lock : Versioning Data.
 - flake.nix : Basically defines where we get stuff from.
 - hardware-configuration.nix : You'll need your own.
-
+  
 #System <br>
-- configuration.nix : System Options. <br>
+configuration.nix : System Options. <br>
+  
 #System/Modules <br>
 - Automatic : Automates Garbage Collection.
 - Bash : Aliases (switch, update, cd, vim, nvim).
@@ -31,10 +32,12 @@ You are free to use this code as you wish. <br>
 - sound: Pipewire.
 - steam: ....
 - swayfx: In-Use by default.
-- system_imports.nix: Where you can manually toggle stuff on and off.
+- system_imports.nix: Where you can manually toggle stuff on and off. <br>
+  
 #User <br>
 We use Home-Manager as a Module... Or whatever method allows you to have multiple users and requires ```sudo``` invocation. 
-- home.nix: Barebones.
+- home.nix: Barebones. <br>
+  
 #User/Modules <br>
 - bitwarden: ....
 - copyq: Needed for Wayland Window Managers.
@@ -60,13 +63,13 @@ We use Home-Manager as a Module... Or whatever method allows you to have multipl
 - wlogout: For Wayland Window Managers
 - xivlauncher: .... Waiting on the RB Fork to actually drop so I can set that override. 
 - zoxide: cd but better. 
-- imports.nix: Where you can adjust what to include. 
+- imports.nix: Where you can adjust what to include. <br>
 
 #Keybinds <br>
-
+<br>
 I want you to go to QTile and look at thier keybinds. Study them. Chances are pretty high that I use all of them. <br>
 But JIC you did not do what I asked here they are: <br>
-
+<br>
 Meta: Mod4 aka Super aka That other OS Button. <br>
 
 - Meta + W: Close a window
@@ -77,13 +80,17 @@ Meta: Mod4 aka Super aka That other OS Button. <br>
 - Meta + Shift + C: Reload Config. You'll rarely use this, and its after invoking Home Manager and Home Manager only if you change my SwayFX Config.
 - Meta + Shift + E: Shows WLogout. 
 - Meta + F: Fullscreen
-
+  
 The rest just look up kek.... If I didn't write it down, I don't really use it. 
-
-#TO-DO:
-
+<br>
+<br>
+#TO-DO:<br>
+<br>
 Write a script (probably ffxiv-update, ffxiv-backup) to initalize my FFXIV Settings & Back them up to Git Hub or some Repo.
-
+<br>
+<br>
+#Final Words: <br>
+<br>
 Other than that, feel free to look around! Some things are hacky, some things are clever, some things are held up by duct tape, and fragile hopes and dreams. 
 
 
