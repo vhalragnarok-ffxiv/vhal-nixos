@@ -1,0 +1,30 @@
+{
+  "Item1": {
+    "Name": "Tonberry",
+    "Tag": "Doink",
+    "Leader": "Vhal Nym",
+    "ServerId": 405
+  },
+  "Item2": [
+    {
+      "Name": "Sharpie",
+      "Arrival": "2024-03-23T00:21:07Z",
+      "Type": 2
+    },
+    {
+      "Name": "Spooky",
+      "Arrival": "2024-03-23T00:21:22Z",
+      "Type": 2
+    },
+    {
+      "Name": "Malice",
+      "Arrival": "2024-03-22T21:32:00Z",
+      "Type": 2
+    },
+    {
+      "Name": "Monster Mash",
+      "Arrival": "2024-03-22T21:32:19Z",
+      "Type": 2
+    }
+  ]
+}

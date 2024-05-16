@@ -1,0 +1,30 @@
+{
+  "Item1": {
+    "Name": "Schwartzheim",
+    "Tag": "SPACE",
+    "Leader": "Hran Selnir",
+    "ServerId": 407
+  },
+  "Item2": [
+    {
+      "Name": "Submersible-1",
+      "Arrival": "2024-03-22T21:28:04Z",
+      "Type": 2
+    },
+    {
+      "Name": "Submersible-2",
+      "Arrival": "2024-03-22T23:51:43Z",
+      "Type": 2
+    },
+    {
+      "Name": "Submersible-3",
+      "Arrival": "2024-03-22T21:28:24Z",
+      "Type": 2
+    },
+    {
+      "Name": "Submersible-4",
+      "Arrival": "2024-03-22T23:52:10Z",
+      "Type": 2
+    }
+  ]
+}

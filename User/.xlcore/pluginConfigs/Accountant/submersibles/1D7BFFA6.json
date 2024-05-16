@@ -1,0 +1,30 @@
+{
+  "Item1": {
+    "Name": "Singularity Reactor",
+    "Tag": "DSR",
+    "Leader": "God King",
+    "ServerId": 407
+  },
+  "Item2": [
+    {
+      "Name": "Submersible-1",
+      "Arrival": "2024-03-23T00:05:49Z",
+      "Type": 2
+    },
+    {
+      "Name": "Submersible-2",
+      "Arrival": "2024-03-23T00:06:07Z",
+      "Type": 2
+    },
+    {
+      "Name": "Submersible-3",
+      "Arrival": "2024-03-22T21:42:48Z",
+      "Type": 2
+    },
+    {
+      "Name": "Submersible-4",
+      "Arrival": "2024-03-22T21:42:57Z",
+      "Type": 2
+    }
+  ]
+}
