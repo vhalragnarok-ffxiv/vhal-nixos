@@ -27,7 +27,7 @@ config = {
   kernel.Selection = "cachy";
 
   #Are you running on the laptop?
-  laptop.enable = true;
+  laptop.enable = false;
   
   # Enable Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes"];
