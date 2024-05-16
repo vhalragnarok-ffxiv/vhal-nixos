@@ -6,6 +6,18 @@ I provide no warranty nor no guarantee that this project works. <br>
 Please do not create issues or PRs against this project, as this is my personal setup. <br>
 You are free to use this code as you wish. <br>
 <br>
+<br>
+#Some Neat Features: <br>
+- Features SwayFX & KDE-Plasma! In the future will also feature Hyprland, i3, and dk (WIP!)
+- Switch alias to try out new stuff.
+- Update alias to update system!
+- Backup alias to backup Config to GitHub!
+- ffxiv-update binary to move files from vhal-nixos into .xlcore
+- ffxiv-backup to backup ffxiv settings to GitHub! 
+- Features the Cachy-OS Kernel out of the gate, no hassle!
+- Has multiple kernels as options: Zen (Dekstop), Cachy (best performance), and Default (Current LTS)
+- Based on Nix-Unstable. Get updates when they come in, with the ease of mind of Nix (something break? Roll back a generation like nothing happened.) <br>
+<br>
 #File Structure <br>
 #Root Directory: <br>
 - flake.lock : Versioning Data.
@@ -85,11 +97,6 @@ Meta: Mod4 aka Super aka That other OS Button. <br>
 - Meta + F: Fullscreen
   
 The rest just look up kek.... If I didn't write it down, I don't really use it. 
-<br>
-<br>
-#TO-DO:<br>
-<br>
-Write a script (probably ffxiv-update, ffxiv-backup) to initalize my FFXIV Settings & Back them up to Git Hub or some Repo.
 <br>
 <br>
 #Final Words: <br>
