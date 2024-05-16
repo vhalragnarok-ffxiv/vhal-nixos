@@ -10,7 +10,7 @@ You are free to use this code as you wish. <br>
 - hardware-configuration.nix : You'll need your own.
 
 #System <br>
--configuration.nix : System Options. 
+- configuration.nix : System Options. 
 #System/Modules <br>
 - Automatic : Automates Garbage Collection.
 - Bash : Aliases (switch, update, cd, vim, nvim).
