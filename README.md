@@ -17,7 +17,7 @@ You are free to use this code as you wish. <br>
 - Features the Cachy-OS Kernel out of the gate, no hassle!
 - Has multiple kernels as options: Zen (Dekstop), Cachy (best performance), and Default (Current LTS)
 - Based on Nix-Unstable. Get updates when they come in, with the ease of mind of Nix (something break? Roll back a generation like nothing happened.) <br>
-<br>
+  
 #File Structure <br>
 #Root Directory: <br>
 - flake.lock : Versioning Data.
