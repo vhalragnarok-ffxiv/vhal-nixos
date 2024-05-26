@@ -16,6 +16,7 @@
     ./steam/steam.nix
     ./git/git.nix
     ./gnome-keyring/gnome-keyring.nix
+    ./distrobox/distrobox.nix
      #I shouldn't need to fuck with SDDM but JIC. I should be able to handle X11 shit in X11 shit.
     ./sddm/sddm.nix
      #DE / WM Selection. Comment out what you don't want.    
